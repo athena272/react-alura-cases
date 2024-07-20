@@ -1,3 +1,4 @@
+import Footer from "../src/components/patterns/Footer"
 import Link from "../src/components/Link"
 
 function Title({ children, as }) {
@@ -26,6 +27,7 @@ export default function HomePage() {
             >
                 Ir para a página do FAQ
             </Link>
+            <Footer />
         </div>
     )
 }
