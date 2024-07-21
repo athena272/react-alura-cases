@@ -2,6 +2,7 @@ import Footer from '../../components/patterns/Footer'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme'
 import { Box, Text } from '../../theme/components'
+import PageTitle from '../../components/PageTitle'
 
 export default function FAQScreen({ faq }) {
     return (
@@ -10,6 +11,7 @@ export default function FAQScreen({ faq }) {
                 backgroundColor: theme.colors.neutral["050"]
             }}
         >
+            <PageTitle>FAQ - Alura Cases Campanha</PageTitle>
             <Box
                 as="main"
                 styleSheet={{
